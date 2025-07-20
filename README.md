@@ -1,6 +1,6 @@
-# Admin Impersonate Plugin for WordPress
+# Impersonate Plugin for WordPress
 
-**Admin Impersonate** is a lightweight and secure plugin that allows WordPress administrators to temporarily log in as any other user for support, testing, or troubleshooting purposes. This is especially useful for debugging user-specific issues or verifying access controls without resetting passwords.
+**Impersonate** is a lightweight and secure plugin that allows WordPress administrators to temporarily log in as any other user for support, testing, or troubleshooting purposes. This is especially useful for debugging user-specific issues or verifying access controls without resetting passwords.
 
 ## 🔧 Features
 
