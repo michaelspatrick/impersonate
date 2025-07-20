@@ -35,4 +35,4 @@ This plugin is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/
 
 ## ✍️ Author
 
-Developed by **Michael Patrick** for use with [Dragon Society International](https://dragonsociety.com)
+Developed by **Michael Patrick**
