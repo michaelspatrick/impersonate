@@ -3,7 +3,7 @@
  * Plugin Name: Impersonate
  * Plugin URI:  https://github.com/michaelspatrick/admin_impersonate
  * Description: Allows administrators to impersonate another user securely for testing and support.
- * Version:     1.0
+ * Version:     1.1
  * Author:      Michael Patrick
  * License:     GPLv2 or later
  */
@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) exit;
 // Safe session start
 function ai_start_session_if_needed() {
     if (session_status() === PHP_SESSION_NONE) {
-        session_start();
+        if (!session_id()) session_start();
     }
 }
 add_action('init', 'ai_start_session_if_needed', 1);
